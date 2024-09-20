@@ -1,8 +1,8 @@
 
 var typed = new Typed(".text", {
-    strings: ["Programming" , "Cybersecurity" , "Web Development"],
-    typeSpeed:100,
-    backSpeed:100,
+    strings: ["Programming" , "Web Developing" , "C/C++","Java"],
+    typeSpeed:30,
+    backSpeed:30,
     backDelay:1000,
     loop:true
 });
@@ -40,5 +40,5 @@ function copy(){
     elementid = "phoneNumber";
     document.getElementById(elementid).innerHTML = '';
     document.getElementById(elementid).innerHTML = '<i class="bx bxs-phone-call">';
-    typer("Phone Number Copied",30,"phoneNumber");
+    typer("Phone Number Copied.",30,"phoneNumber");
 };
